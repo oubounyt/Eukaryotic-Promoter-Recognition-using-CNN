@@ -37,7 +37,7 @@ Procedure for create negative dataset as described in paper:
     <img src="figs/negative_generation.jpg" width="80%">
 </p>
 
-##Training 
+## Training 
 
 ```
 python3 train.py -d data/human/nonTATA/hs_pos_nonTATA.txt --experiment_name human_nonTATA
@@ -76,4 +76,4 @@ Kernel size = [27, 14, 7], and maxpooling with kernel = 6
 
 # References
 
-1. [DeePromoter](https://doi.org/10.3389/fgene.2019.00286) paper
+1. If Scanpy is useful for your research, consider citing [DeePromoter](https://doi.org/10.3389/fgene.2019.00286) paper
